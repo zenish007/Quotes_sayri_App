@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
             R.drawable.img11,
             R.drawable.imge1,
     };
-    int[] set_img={
+    int[] set_img = {
             R.drawable.love1,
             R.drawable.friend,
             R.drawable.birthday,
@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
     void recycleviewadpter() {
 
         for (int i = 0; i < name.length; i++) {
-            Model_class model_class = new Model_class(name[i], img[i],set_img[i]);
+            Model_class model_class = new Model_class(name[i], img[i], set_img[i]);
             l1.add(model_class);
         }
 

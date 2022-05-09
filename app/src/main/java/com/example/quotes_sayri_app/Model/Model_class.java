@@ -2,11 +2,9 @@ package com.example.quotes_sayri_app.Model;
 
 public class Model_class {
 
-    public int getImge() {
-        return imge;
-    }
 
 
+int i;
     int imge;
     String name;
     int img;
@@ -14,16 +12,15 @@ public class Model_class {
     String love;
     int switch_img;
 
+    public int getImge() {
+        return imge;
+    }
     public int getSwitch_img() {
         return switch_img;
     }
 
     public void setSwitch_img(int switch_img) {
         this.switch_img = switch_img;
-    }
-
-    public Model_class() {
-
     }
 
     public int getSet_img() {
@@ -42,11 +39,23 @@ public class Model_class {
 
     }
 
-    public Model_class(String love,int switch_img) {
-        this.love = love;
-        this.switch_img=  switch_img;
+    public int getI() {
+        return i;
     }
 
+    public void setI(int i) {
+        this.i = i;
+    }
+
+    public Model_class(String love, int i) {
+        this.love = love;
+        this.i=i;
+
+    }
+
+    public void setImge(int imge) {
+        this.imge = imge;
+    }
 
     public String getLove() {
         return love;
